@@ -88,7 +88,7 @@ app.get('/movies/:pagenumber', async (req, res) => {
 
 // ################ post ################
 
-app.post("/addmovie",validator,async(req,res)=>{
+app.post("/addmovie",async(req,res)=>{
 
     try{
         const data=req.body;
